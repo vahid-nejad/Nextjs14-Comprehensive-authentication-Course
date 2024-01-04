@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.zoomLevel": 3,
+    "editor.fontSize": 18,
+    "prettier.printWidth": 80,
+    "editor.wordWrap": "on",
+    "editor.hover.enabled": false,
+    "terminal.integrated.fontSize": 18
+  }
+}
