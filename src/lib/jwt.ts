@@ -13,7 +13,7 @@ export function signJwt(
   option: SignOption = DEFAULT_SIGN_OPTION
 ) {
   const secretKey = process.env.JWT_USER_ID_SECRET!;
-  const token = jwt.sign(payload, secretKey, { expiresIn: option.expriesIn });
+  const token = jwt.sign(payload, secretKey, { expiresIn: option.expiresIn });
   return token;
 }
 
